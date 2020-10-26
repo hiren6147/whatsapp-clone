@@ -43,7 +43,7 @@ const SidebarChat = ({ id, name, addNewChat }) => {
         />
         <div className="sidebarChat__info">
           <h2>{name}</h2>
-            <p>{messages[0]?.message}</p>
+            <p>{messages[0]?.messages}</p>
         </div>
       </div>
     </Link>
