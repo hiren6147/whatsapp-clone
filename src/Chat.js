@@ -94,7 +94,7 @@ const Chat = () => {
             }`}
           >
             <span className="chat__name">{messages.name}</span>
-            {messages.message}
+            {messages.messages}
             <span className="chat__timestamp">
               {new Date(messages.timestamp?.toDate()).toUTCString()}
             </span>
